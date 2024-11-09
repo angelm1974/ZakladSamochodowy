@@ -17,5 +17,12 @@ internal class Program
         samochod.Wlasciciel=klient;
 
         Console.WriteLine("Samochód: {0} {1} ", samochod.Model, samochod.Wlasciciel.Imie);
+
+
+        Zaklad.Pracownik pracownik = new Zaklad.Pracownik();
+        pracownik.Imie="Jan";
+        pracownik.Nazwisko="Nowak";
+        pracownik.Telefon="987654321";
+        pracownik.Specjalizacja=Specjalista.Lakiernik;
     }
 }
